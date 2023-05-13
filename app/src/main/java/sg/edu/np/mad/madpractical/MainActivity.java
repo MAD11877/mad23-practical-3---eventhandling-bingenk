@@ -50,6 +50,12 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+        //CHALLENGE PART
+        messageButton.setOnClickListener(view -> {
+            Intent activityMessage = new Intent(MainActivity.this, MessageGroup.class);
+            startActivity(activityMessage);
+        });
+
     }
 
     private void showToast(String message) {

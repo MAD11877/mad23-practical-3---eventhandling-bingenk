@@ -22,7 +22,7 @@
 15-->[androidx.core:core:1.9.0] C:\Users\Bing En\.gradle\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:5:5-33:19
+17-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:5:5-36:19
 18        android:allowBackup="true"
 18-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -44,61 +44,67 @@
 28        android:theme="@style/Theme.MADPractical" >
 28-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:13:9-50
 29        <activity
-29-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:15:9-23:20
-30            android:name="sg.edu.np.mad.madpractical.ListActivity"
+29-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:15:9-17:40
+30            android:name="sg.edu.np.mad.madpractical.MessageGroup"
 30-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:16:13-41
-31            android:exported="true" >
-31-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:17:13-36
-32            <intent-filter>
-32-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:18:13-22:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:19:17-69
-33-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:19:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:21:17-77
-35-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:21:27-74
-36            </intent-filter>
-37        </activity>
-38        <activity
-38-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:24:9-32:20
-39            android:name="sg.edu.np.mad.madpractical.MainActivity"
-39-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:25:13-41
-40            android:exported="true" >
-40-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:26:13-36
-41            <intent-filter>
-41-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:18:13-22:29
-42                <action android:name="android.intent.action.MAIN" />
-42-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:19:17-69
-42-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:19:25-66
-43
-44                <category android:name="android.intent.category.LAUNCHER" />
-44-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:21:17-77
-44-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:21:27-74
-45            </intent-filter>
-46        </activity>
-47
-48        <provider
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-49            android:name="androidx.startup.InitializationProvider"
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-50            android:authorities="sg.edu.np.mad.madpractical.androidx-startup"
-50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-51            android:exported="false" >
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-52            <meta-data
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-54                android:value="androidx.startup" />
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+31            android:exported="false" />
+31-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:17:13-37
+32        <activity
+32-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:18:9-26:20
+33            android:name="sg.edu.np.mad.madpractical.ListActivity"
+33-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:19:13-41
+34            android:exported="true" >
+34-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:20:13-36
+35            <intent-filter>
+35-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:21:13-25:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:22:17-69
+36-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:22:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:24:17-77
+38-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:24:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:27:9-35:20
+42            android:name="sg.edu.np.mad.madpractical.MainActivity"
+42-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:28:13-41
+43            android:exported="true" >
+43-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:29:13-36
+44            <intent-filter>
+44-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:21:13-25:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:22:17-69
+45-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:22:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:24:17-77
+47-->C:\Users\Bing En\Documents\MAD\week 3\mad23-practical-3---eventhandling-bingenk\app\src\main\AndroidManifest.xml:24:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="sg.edu.np.mad.madpractical.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 55            <meta-data
-55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Bing En\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Bing En\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 57                android:value="androidx.startup" />
-57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Bing En\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-58        </provider>
-59    </application>
-60
-61</manifest>
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bing En\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Bing En\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Bing En\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Bing En\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>

@@ -27,6 +27,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.MADPractical" >
         <activity
+            android:name="sg.edu.np.mad.madpractical.MessageGroup"
+            android:exported="false" />
+        <activity
             android:name="sg.edu.np.mad.madpractical.ListActivity"
             android:exported="true" >
             <intent-filter>
