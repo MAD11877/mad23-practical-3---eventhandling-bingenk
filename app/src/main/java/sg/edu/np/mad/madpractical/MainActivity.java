@@ -1,10 +1,15 @@
 package sg.edu.np.mad.madpractical;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import org.w3c.dom.Text;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -12,11 +17,24 @@ public class MainActivity extends AppCompatActivity {
     private Button followButton;
     private boolean isFollowing = false;
 
+    private Button messageButton;
+
+    private TextView header;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        header = findViewById(R.id.textView3);
+        messageButton = findViewById(R.id.button2);
         followButton = findViewById(R.id.btnFollow);
+
+        followButton = findViewById(R.id.btnFollow);
+
+        Intent receivingEnd = getIntent();
+        String message = receivingEnd.getStringExtra("Key");
+        header.setText("MAD " + message);
         followButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,10 +48,13 @@ public class MainActivity extends AppCompatActivity {
                     showToast("Followed");
                 }
             }
+
         });
     }
+
     private void showToast(String message) {
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
     }
+
 
 }
