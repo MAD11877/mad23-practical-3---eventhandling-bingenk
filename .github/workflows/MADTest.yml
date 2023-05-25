@@ -38,13 +38,13 @@ jobs:
           #go run arrange.go
           cd ..
           ls
+          git config --global core.autocrlf true
           
       - name: Make gradlew executable
         run: chmod +x ./gradlew
   
       - name: Run Android Tests
-        run: ./gradlew test -Dorg.gradle.java.home=/usr/lib/jvm/temurin-17-jdk-amd64
+        run: ./gradlew test 
         
       - name: Build Project
-        run: ./gradlew assemble -Dorg.gradle.java.home=/usr/lib/jvm/temurin-17-jdk-amd64
-        
+        run: ./gradlew assemble
