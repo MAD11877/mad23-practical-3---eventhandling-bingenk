@@ -5,7 +5,7 @@ on:
     
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     
     steps:
       - name: Checkout Source Codes
@@ -22,8 +22,6 @@ jobs:
 
       - name: Setup go
         uses: actions/setup-go@v2
-        with:
-          go-version: '1.6.0'
       
       - name: Run Tests
         run: |
@@ -41,9 +39,9 @@ jobs:
           
       - name: Make gradlew executable
         run: chmod +x ./gradlew
-  
+        
       - name: Run Android Tests
-        run: ./gradlew test 
+        run: ./gradlew test
         
       - name: Build Project
         run: ./gradlew assemble
