@@ -36,6 +36,7 @@ jobs:
           #go run arrange.go
           cd ..
           ls
+          which bash
           
       - name: Make gradlew executable
         run: chmod +x ./gradlew
